@@ -1,0 +1,139 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*navigation start*/
+    .menu ul li a {
+        margin: 4px 0;
+        border-bottom: 2px solid #fe504f;
+    }
+    /*navigation end*/
+    /*banner start*/
+    #banner {
+        padding: 150px 0;
+    }
+    .b_content h1 {
+        font-size: 27px;
+    }
+    header::after {
+        height: 100px;
+    }
+    /*banner end*/
+    /*service start*/
+    #service {
+        padding: 50px 0;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .single {
+        margin-top: 40px;
+    }
+    /*service end*/
+    /*about start*/
+    #about {
+        padding-bottom: 40px;
+    }
+    .ab_single,
+    .team {
+        margin-top: 40px;
+    }
+    .team img {
+        margin-bottom: 30px;
+    }
+    /*about end*/
+    /*news start*/
+    #news {
+        padding-bottom: 60px;
+    }
+    .n_single {
+        margin-top: 40px;
+    }
+    /*news end*/
+    /*contact start*/
+    #contact {
+        padding: 50px 0 0;
+    }
+    .c_single {
+        margin-bottom: 50px;
+    }
+    /*contact end*/
+    /*footer start*/
+    footer {
+        text-align: center;
+    }
+    /*footer end*/
+    .bck {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*navigation start*/
+    .menu ul li a {
+        margin: 4px 0;
+        border-bottom: 2px solid #fe504f;
+    }
+    /*navigation end*/
+    /*banner start*/
+    .b_content h1 {
+        font-size: 33px;
+    }
+    header::after {
+        height: 150px;
+    }
+    /*banner end*/
+    /*service start*/
+    #service {
+        padding: 80px 0;
+    }
+    .single {
+        margin-top: 40px;
+    }
+    /*service end*/
+    /*about start*/
+    #about {
+        padding-bottom: 50px;
+    }
+    .ab_single,
+    .team {
+        margin-top: 40px;
+    }
+    .team img {
+        margin-bottom: 30px;
+    }
+    /*about end*/
+    /*news start*/
+    #news {
+        padding-bottom: 80px;
+    }
+    .n_single {
+        margin-top: 40px;
+    }
+    /*news end*/
+    /*contact start*/
+    #contact {
+        padding: 80px 0 30px;
+    }
+    .c_single {
+        margin-bottom: 40px;
+    }
+    /*contact end*/
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header::after {
+        height: 200px;
+    }
+    .team img {
+        margin-bottom: 20px;
+    }
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    header::after {
+        height: 250px;
+    }
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}

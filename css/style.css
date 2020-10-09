@@ -1,0 +1,236 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #777;
+}
+/*navigation start*/
+header {
+    padding-top: 15px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.logo {
+    font-size: 25px;
+    font-weight: 700;
+    color: #fe504f!important;
+    text-transform: uppercase;
+}
+.menu ul li a {
+    font-weight: 600;
+    color: #fff!important;
+    text-transform: uppercase;
+    padding: 0!important;
+    margin: 0 10px;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+}
+.menu ul li a:hover,
+.menu ul li .active {
+    border-bottom: 2px solid #fe504f;
+}
+.menu ul li:last-child a {
+    margin-right: 0;
+}
+/*navigation end*/
+/*banner start*/
+#banner {
+    padding: 200px 0;
+}
+.b_content {
+    color: #fff;
+}
+.b_content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    background-image: url(../images/bannercut.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+}
+/*banner end*/
+/*service start*/
+#service {
+    text-align: center;
+    padding: 120px 0;
+}
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #555;
+    text-transform: uppercase;
+}
+.single {
+    margin-top: 80px;
+}
+.single i::before {
+    font-size: 30px;
+    margin: 0;
+    color: #fe504f;
+    border: 3px solid #fe504f;
+    padding: 7px;
+}
+.cmn_hr {
+    width: 50px;
+    height: 2px;
+    background: #fe504f;
+}
+.single h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #555;
+    text-transform: uppercase;
+}
+/*service end*/
+/*about start*/
+#about {
+    padding-bottom: 120px;
+}
+.ab_single,
+.team {
+    margin-top: 80px;
+}
+.short {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fe504f;
+    text-transform: uppercase;
+}
+.ab_single img {
+    margin-bottom: 16px;
+}
+.t_single {
+    position: relative;
+    cursor: pointer;
+}
+.t_overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: 0.3s linear;
+    transform: scale(0);
+}
+.to_item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.to_item p {
+    font-weight: 600;
+    color: #fe504f;
+    margin: 0;
+    text-transform: capitalize;
+}
+.t_single:hover .t_overlay {
+    transform: scale(1);
+}
+/*about end*/
+/*news start*/
+#news {
+    padding-bottom: 120px;
+}
+.n_single {
+    margin-top: 80px;
+    position: relative;
+    cursor: pointer;
+}
+.n_overlay {
+    padding: 16px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15%;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: 0.3s ease;
+    transform: scale(0);
+}
+.n_overlay:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid rgba(0, 0, 0, 0.7);
+    border-bottom: 15px solid transparent;
+}
+.n_overlay p {
+    color: #fff;
+    margin-bottom: 0;
+}
+.n_overlay small {
+    color: #fe504f;
+    float: right;
+}
+.n_single:hover .n_overlay {
+    transform: scale(1);
+}
+/*news end*/
+/*contact start*/
+#contact {
+    padding: 120px 0;
+    background: url(../images/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.c_single {}
+.c_single i {
+    color: #fe504f;
+    padding: 10px;
+    margin-right: 15px;
+    border: 1px solid #fe504f;
+}
+.c_single p {
+    color: #fff;
+}
+.c_single input::placeholder,
+.c_single textarea::placeholder {
+    color: #fff;
+}
+.c_single button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background: #fe504f;
+}
+.c_single button:hover {
+    color: #fe504f;
+    background: #fff;
+}
+/*contact end*/
+/*footer start*/
+footer {
+    padding: 30px 0;
+    background: #212121;
+}
+footer p {
+    color: #fff;
+}
+footer ul li a {
+    font-size: 20px;
+    color: #fff;
+    margin: 0 8px;
+    transition: 0.3s ease;
+}
+footer ul li a:hover {
+    color: #fe504f;
+}
+/*footer end*/
+.bck:hover {
+    color: #fff;
+    background: #fe504f;
+}
